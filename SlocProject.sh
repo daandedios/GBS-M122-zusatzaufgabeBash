@@ -46,7 +46,6 @@ then
 # ----------------------------------------------------------
 # Output erstellen und ausgeben. (Total - Kommentare)
 # ----------------------------------------------------------
-	echo "$MultiLinesComments"
 	let "output = linienTotal - anzahlComments - anzahlMultiLinesComments"
 	echo "Im Projekt wurden $output Source Lines of Code (SLOC) gezählt."
 # ----------------------------------------------------------
